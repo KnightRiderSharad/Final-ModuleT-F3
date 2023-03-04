@@ -1,0 +1,91 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", 
+                 Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", 
+                 "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: black;
+    color:white;
+}
+
+#btn{
+    height: 32px;
+    width:130px;
+    border-radius:5px;
+} 
+
+#btn2{
+    color:cadetblue;
+    background-color: black;
+    font-size: 20px;
+    height: 42px;
+    width:150px;
+    border-radius:5px;
+    margin-left: 0px;
+}
+
+#btn2:hover{
+    background-color:black;
+    color:cadetblue;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color:lightgray;
+    color:black;
+    border: 2px solid gray;
+    border-radius: 8px;
+
+}
+
+#search{
+    border:1px solid whitesmoke ;
+    background-color: black;
+    color:white;
+    width:1300px;
+    height:25px;
+    border-radius: 5px;
+    padding-left: 20px;
+ } 
+
+#main
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:stretch;
+    height: 400px;
+    width: 1400px;
+}
+
+#link{
+    color:yellow;
+    font-size: 30px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+#history{
+    text-align: center;
+    color: chocolate;
+
+}
+
+#hr1{
+    width:340px;
+    color:brown;
+}
+/* #btn{
+    height: 32px;
+    width:100px;
+    border-radius:5px;
+}*/
+
+/* #search
+{
+    width:1200px;
+    height:20px;
+    border-color: gainsboro;
+    background-color: black;
+    color: white;
+    font-size:12px;
+    padding-left: 20px;
+} */
